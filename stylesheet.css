@@ -1,0 +1,98 @@
+html{
+    background-color: #f9fafc;
+    font-family: "Open Sans", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: auto;
+    justify-content: flex-end;
+    padding: 0;
+    color: #69696a
+    
+}
+li {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 20px;     
+}
+#tag{
+    position: absolute;
+    left: 0px;
+    color: black;
+}
+.lefthalf {
+    max-width: 50%;
+    height: 50%;
+    margin: 100px 0px;
+    display: inline-block
+}
+.lefthalf p{
+    border-left: 2px solid #69696a;
+    padding: 0px 10px;
+    color: #69696a
+}
+#hire{
+    background-color: black;
+    color: #f9fafc;
+    border-radius: 15px;
+}
+.centerdown{
+    display: flex;
+    justify-content: center;
+
+}
+#Down{
+    background-color: black;
+    color: #f9fafc;
+    border-radius: 15px;
+    display: inline-block;
+    margin: auto;
+    padding: 5px 20px;
+    position: fixed;
+    bottom: 10px;
+    }
+.circles{
+    display: inline-block;
+    height: 150px;
+    position: relative;
+    left: 69px;
+    max-width: 49%;
+    margin: auto 0;
+}
+.orange{
+    background-color: rgba(247, 193, 162, 0.7);
+    border-radius: 50%;
+    height:175px;
+    width: 175px;
+    position: relative;
+    left: 233px;
+    top: 157px;
+    margin: 0;
+    padding: 0;
+}
+.purple{
+    background-color: rgba(207, 130, 213, 0.6);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 291px;
+    top: -349px;
+    margin: 0;
+    padding: 0;
+}
+.pink{
+    background-color:  rgba(247, 136, 167, 0.6);
+    border-radius: 50%;
+    height: 260px;
+    width: 260px;
+    position: relative;
+    left: 56px;
+    top:-148px;
+    margin: 0;
+    padding: 0;
+
+    
+}
