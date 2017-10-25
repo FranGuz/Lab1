@@ -1,0 +1,119 @@
+html{
+    background-color: #f9fafc;
+    font-family: "Open Sans", sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    flex-flow: column;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: #69696a
+}
+li{
+    margin: 3px 0px;
+}
+#hire, .centerdown{
+    width: 100%;
+    color: #f9fafc;
+    background-color: #000;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+}
+h2{
+    font-weight: 800;
+}
+
+.words{
+    border-left: 2px solid #69696a;
+    padding: 0px 20px;
+}
+.centerdown{
+    margin-top: 30px;
+}
+@media only screen and (min-width: 768px){
+    nav{
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    ul{
+        display: flex;
+        align-items: center;
+    }
+    li{
+        padding: 0px 20px;
+    }
+    h2{
+        margin: 100px 0px 0px 0px;
+    }
+    .lefthalf{
+        display: flex;
+        margin: 0px 0px 100px 0px;
+        justify-content: space-between;
+        justify-content: center;
+    }
+    .words{
+        margin-top: 15px;
+        width: 50%;
+    }
+    .centerdown {
+        width: 150px;
+        display: block;
+        margin: auto;
+        position: relative;
+        top: 100px;
+
+    }
+    .circles{
+        height: 150px;
+        position: relative;
+        width: 49%;
+    }
+    .orange{
+        background-color: rgba(247, 193, 162, 0.7);
+        border-radius: 50%;
+        height:175px;
+        width: 175px;
+        position: relative;
+        left: 233px;
+        top: 133px;
+        margin: 0;
+        padding: 0;
+    }
+    .purple{
+        background-color: rgba(207, 130, 213, 0.6);
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        position: relative;
+        left: 291px;
+        top: -360px;
+        margin: 0;
+        padding: 0;
+    }
+    .pink{
+        background-color:  rgba(247, 136, 167, 0.6);
+        border-radius: 50%;
+        height: 260px;
+        width: 260px;
+        position: relative;
+        left: 56px;
+        top:-160px;
+        margin: 0;
+        padding: 0;
+    
+        
+    }
+}
